@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveOn - Aluguel de carro</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="abas">
+            <img src="IMG/logomarca.png" alt="logomarca" class="logomarca">
+            <div class="aba1">
+                <button>Ofertas</button>
+            </div>
+            <div class="aba2">
+                <a href="file:///C:/Users/ptoma/OneDrive/Documentos/Atividade%20site/atividade/Pagina2.html">
+                    <button>Veja os nossos carros</button>
+                </a>
+            </div>
+           <a href="file:///C:/Users/ptoma/OneDrive/Documentos/Atividade%20site/atividade/login.html">
+            <button> <img src="IMG/pessoinha.png" alt="agenda" class="agenda"></button>
+           </a>
+            
+        </div>
+    </header>
+
+    <main class="container">
+        <img src="IMG/Promoção.png" alt="Promoção" class="promoção">
+        <section class="search-form">
+            <h2>Alugue um carro</h2>
+            <form action="file:///C:/Users/ptoma/OneDrive/Documentos/Atividade%20site/atividade/Pagina2.html" method="get">
+                <label for="location">Local de Retirada</label>
+                <input type="text" id="location" name="location" placeholder="Onde você quer alugar?" aria-label="Local de retirada">
+
+                <label for="pickup-date">Data e Hora de Retirada</label>
+                <input type="date" id="pickup-date" name="pickup-date" aria-label="Data de retirada">
+                <input type="time" id="pickup-time" name="pickup-time" aria-label="Hora de retirada">
+
+                <label for="return-date">Data e Hora de Devolução</label>
+                <input type="date" id="return-date" name="return-date" aria-label="Data de devolução">
+                <input type="time" id="return-time" name="return-time" aria-label="Hora de devolução">
+
+                <a href="file:///C:/Users/ptoma/OneDrive/Documentos/Atividade%20site/atividade/Pagina2.html">
+                    <button>Buscar</button>
+                </a>
+            </form>
+        </section>
+        
+        <div class="carPag1">
+            <div class="car-option">
+                <img src="img/mobi.png.png" alt="Fiat Mobi">
+                <h2>Fiat Mobi 1.0 ou Similar</h2>
+                <p>Grupo B - Compacto Com Ar</p>
+                <button onclick="reserveCar('Fiat Mobi')">Reserve Agora</button>
+                <a href="#">Mostrar detalhes</a>
+                <p>*Sua reserva garante um dos modelos de carro acima, estando sujeito à disponibilidade da agência.</p>
+            </div>
+            <div class="car-option">
+                <img src="img/Renault Zoe E-Tech.png.png" alt="Renault Zoe">
+                <h2>Renault Zoe E-Tech Elétrico ou Similar</h2>
+                <p>Grupo BE - Compacto Elétrico</p>
+                <button onclick="reserveCar('Renault Zoe')">Reserve Agora</button>
+                <a href="#">Mostrar detalhes</a>
+                <p>*Sua reserva garante um dos modelos de carro acima, estando sujeito à disponibilidade da agência.</p>
+            </div>
+            <div class="car-option">
+                <img src="img/VW Gol.png.png" alt="VW Gol">
+                <h2>VW Gol 1.0 ou Similar</h2>
+                <p>Grupo C - Econômico Com Ar</p>
+                <button onclick="reserveCar('VW Gol')">Reserve Agora</button>
+                <a href="#">Mostrar detalhes</a>
+                <p>*Sua reserva garante um dos modelos de carro acima, estando sujeito à disponibilidade da agência.</p>
+            </div>
+        </div>
+
+        <section class="promo-banner">
+            <a href="file:///C:/Users/ptoma/OneDrive/Documentos/Atividade%20site/atividade/Pagina2.html">
+                <button>Alugue Agora</button>
+            </a>
+            <p>*Consulte condições no site.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

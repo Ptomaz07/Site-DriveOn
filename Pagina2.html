@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opções de Aluguel de Carros</title>
+    <link rel="stylesheet" href="CSS/Syles2.css">
+</head>
+<body>
+    <header class="header">
+        <div class="conjuntoT">
+            <img src="IMG/logomarca.png" alt="logomarca" class="logomarca">
+            <div class="titulo">
+                <h2> Os nossos carros </h2>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="car-option">
+            <img src="img/mobi.png.png" alt="Fiat Mobi">
+            <h2>Mobi Like ou Similar</h2>
+            <p>Grupo AX - MOVIDA ON</p>
+            <p>Franquia mensal: 1.000 Km</p>
+            <p>A partir de: R$ 60,02 /dia*</p>
+            <p>*Proteções e taxas administrativas não inclusas neste valor.</p>
+            <button onclick="reserveCar('Mobi Like ou Similar')">Reserve Agora</button>
+            <a href="#">Mostrar detalhes</a>
+        </div>
+        <div class="car-option">
+            <img src="img/kwid.png" alt="Renault Kwid">
+            <h2>HB20S, Voyage, Cronos ou Similar</h2>
+            <p>Grupo BS - ECONÔMICO SEDÃ</p>
+            <p>Franquia mensal: 1.000 Km</p>
+            <p>A partir de: R$ 69,76 /dia*</p>
+            <p>*Proteções e taxas administrativas não inclusas neste valor.</p>
+            <button onclick="reserveCar('HB20S, Voyage, Cronos ou Similar')">Reserve Agora</button>
+            <a href="#">Mostrar detalhes</a>
+        </div>
+        <div class="car-option">
+            <img src="img/Renault Zoe E-Tech.png.png" alt="Renault Zoe">
+            <h2>Polo, HB20 ou Similar</h2>
+            <p>Grupo BX - ECONÔMICO PLUS</p>
+            <p>Franquia mensal: 1.000 Km</p>
+            <p>A partir de: R$ 70,43 /dia*</p>
+            <p>*Proteções e taxas administrativas não inclusas neste valor.</p>
+            <a href="file:///C:/Users/ptoma/OneDrive/Documentos/Atividade%20site/atividade/pagamentoCon.html">
+            <button>Reserve Agora</button>
+            </a>
+            <a href="#">Mostrar detalhes</a>
+        </div>
+        <div class="car-option">
+            <img src="img/VW Gol.png.png" alt="VW Gol">
+            <h2>208, HB20, Polo ou Similar</h2>
+            <p>Grupo D - HATCH AUTOMÁTICO</p>
+            <p>Franquia mensal: 1.000 Km</p>
+            <p>A partir de: R$ 84,32 /dia*</p>
+            <p>*Proteções e taxas administrativas não inclusas neste valor.</p>
+            <button onclick="reserveCar('208, HB20, Polo ou Similar')">Reserve Agora</button>
+            <a href="#">Mostrar detalhes</a>
+        </div>
+        <div class="car-option">
+            <img src="img/sandero.png" alt="Renault Sandero">
+            <h2>Cronos, Grand Siena, Virtus ou Similar</h2>
+            <p>Grupo F - SEDÃ COMPACTO S</p>
+            <p>Franquia mensal: 1.000 Km</p>
+            <p>A partir de: R$ 74,63 /dia*</p>
+            <p>*Proteções e taxas administrativas não inclusas neste valor.</p>
+            <button onclick="reserveCar('Cronos, Grand Siena, Virtus ou Similar')">Reserve Agora</button>
+            <a href="#">Mostrar detalhes</a>
+        </div>
+        <div class="car-option">
+            <img src="img/onix.png" alt="GM Onix">
+            <h2>Novo Versa, HB20S, Onix Plus ou Similar</h2>
+            <p>Grupo FX - SEDÃ AUTOMÁTICO</p>
+            <p>Franquia mensal: 1.000 Km</p>
+            <p>A partir de: R$ 80,65 /dia*</p>
+            <p>*Proteções e taxas administrativas não inclusas neste valor.</p>
+            <button onclick="reserveCar('Novo Versa, HB20S, Onix Plus ou Similar')">Reserve Agora</button>
+            <a href="#">Mostrar detalhes</a>
+        </div>
+    </div>
+    <script>
+        function reserveCar(model) {
+            alert(`Reserva iniciada para o modelo: ${model}`);
+        }
+    </script>
+</body>
+</html>

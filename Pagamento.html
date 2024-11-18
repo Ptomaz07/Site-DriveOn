@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Pagamento</title>
+    <link rel="stylesheet" href="CSS/pagamento.css">
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <div class="payment-container">
+        <h1> Método de pagamento</h1>
+        <form id="payment-form">
+            <div id="card-element"></div>
+            <div class="installments">
+                <label for="installments">Parcelar em:</label>
+                <select id="installments">
+                    <option value="1">À vista</option>
+                    <option value="2">2x sem juros</option>
+                    <option value="3">3x sem juros</option>
+                    <option value="4">4x sem juros</option>
+                    <option value="5">5x sem juros</option>
+                    <option value="6">6x sem juros</option>
+                    <option value="7">7x sem juros</option>
+                    <option value="8">8x sem juros</option>
+                    <option value="9">9x sem juros</option>
+                    <option value="10">10x sem juros</option>
+                    <option value="11">11x sem juros</option>
+                    <option value="12">12x sem juros</option>
+                </select>
+            </div>
+            <a href="file:///C:/Users/ptoma/OneDrive/Documentos/Atividade%20site/atividade/paginafinal.html"> 
+                <button>Pagar com Cartão</button>
+             </a>
+        </form>
+        <button id="pix-button">Pagar com PIX</button>
+        <img id="pix-qrcode" src="IMG/qrcode.png" alt="QR Code PIX" style="display: none; margin-top: 10px;">
+        <button id="boleto-button">Pagar com Boleto</button>
+    </div>
+    <script src="js/pagamento.js"></script>
+</body>
+</html>
+

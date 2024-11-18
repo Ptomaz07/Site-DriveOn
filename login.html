@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesse sua conta</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="img/logomarca.png" alt="Logo" class="logo">
+        <h1>Acesse sua conta</h1>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Digite seu email">
+        
+        <label for="password">Senha</label>
+        <input type="password" id="password" placeholder="Digite sua senha">
+        
+        <a href="#" class="forgot-password">Esqueci minha senha</a>
+        
+        <a href="file:///C:/Users/ptoma/OneDrive/Documentos/Atividade%20site/atividade/Pagina.html?location=&pickup-date=&pickup-time=&return-date=&return-time=#">
+            <button>Entrar</button>
+        </a>
+
+        <p>ou:</p>
+        
+        <button onclick="loginWithFacebook()">Continuar com o Facebook</button>
+        <button onclick="loginWithGoogle()">Continuar com o Google</button>
+        
+        <button class="create-account">Criar conta</button>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
